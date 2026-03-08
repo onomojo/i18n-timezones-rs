@@ -1,0 +1,13 @@
+[package]
+name = "i18n-timezones"
+version = "0.1.0"
+edition = "2021"
+description = "Localized timezone name translations for 152 timezones across 36 locales (CLDR-sourced)"
+license = "MIT"
+repository = "https://github.com/onomojo/i18n-timezones-rs"
+keywords = ["i18n", "timezone", "translation", "localization", "cldr"]
+categories = ["internationalization", "localization"]
+
+[dependencies]
+serde_json = "1"
+once_cell = "1"
