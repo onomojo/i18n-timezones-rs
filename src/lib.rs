@@ -1,4 +1,3 @@
-mod generated;
 mod registry;
 
 pub use registry::{Error, Registry};

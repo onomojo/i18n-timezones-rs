@@ -1,7 +1,7 @@
 use std::collections::HashMap;
 use std::fmt;
 
-use crate::generated::ALL_LOCALES;
+include!(concat!(env!("OUT_DIR"), "/generated.rs"));
 
 #[derive(Debug)]
 pub enum Error {
