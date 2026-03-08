@@ -1,7 +1,7 @@
 use std::collections::HashMap;
 use std::fmt;
 
-include!(concat!(env!("OUT_DIR"), "/generated.rs"));
+use i18n_timezones_data::ALL_LOCALES;
 
 #[derive(Debug)]
 pub enum Error {

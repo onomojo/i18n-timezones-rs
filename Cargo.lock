@@ -4,11 +4,18 @@ version = 4
 
 [[package]]
 name = "i18n-timezones"
-version = "0.1.0"
+version = "0.2.0"
 dependencies = [
+ "i18n-timezones-data",
  "once_cell",
  "serde_json",
 ]
+
+[[package]]
+name = "i18n-timezones-data"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "53b885a9c25eda43f21198a147eb804617cd6edc07088e07d65a73ee2c63b55e"
 
 [[package]]
 name = "itoa"
